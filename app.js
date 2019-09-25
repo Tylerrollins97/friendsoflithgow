@@ -2,8 +2,8 @@
 //NAV//
 const navSlide = () => {
   const burger = document.querySelector('.burger');
-  const nav = document.querySelector('.nav-links');
-  const navLinks = document.querySelectorAll('.nav-links li');
+  const nav = document.querySelector('nav');
+  const navLinks = document.querySelectorAll('.nav-links');
 
   burger.addEventListener('click', () => {
       //Toggle Nav
@@ -41,18 +41,15 @@ const navSlide = () => {
   navSlide();
 //!NAV//
 
-//NAV ON SCROLL//
+// Arrrow Scroll //
+const arrowScroll = () =>{
+  const arrow = document.querySelector('#arrow-down');
+  const landing = document.querySelector('.landing');
 
-$(window).scroll({
-    previousTop: 0
-},
+  arrow.addEventListener('click', ()=> {
+    landing.scrollIntoView();
+  })
+};
 
-function () {
-    var currentTop = $(window).scrollTop();
-    if (currentTop < this.previousTop) {
-        $("header").slideUp();
-    } else {
-        $("header").slideDown();
-    }
-    this.previousTop = currentTop;
-});
+arrowScroll();
+// !Arrrow Scroll//
