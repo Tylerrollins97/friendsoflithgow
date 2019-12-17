@@ -3,8 +3,8 @@
 //NAV//
 const navSlide = () => {
   const burger = document.querySelector('.burger');
-  const nav = document.querySelector('nav');
-  const navLinks = document.querySelectorAll('.nav-links');
+  const nav = document.querySelector('.nav-links');
+  const navLinks = document.querySelectorAll('.nav-links li');
 
   burger.addEventListener('click', () => {
       //Toggle Nav
@@ -45,7 +45,7 @@ const navSlide = () => {
 // Arrrow Scroll //
 const arrowScroll = () =>{
   const arrow = document.querySelector('#arrow-down');
-  const landing = document.querySelector('.landing');
+  const landing = document.querySelector('.carousel');
 
   arrow.addEventListener('click', ()=> {
     landing.scrollIntoView();
@@ -54,3 +54,20 @@ const arrowScroll = () =>{
 
 arrowScroll();
 // !Arrrow Scroll//
+
+//NAV HIDE-REVEAL//
+window.onscroll = function(e) {
+    var scrollY = window.pageYOffset || document.documentElement.scrollTop;
+    var header = document.querySelector('nav');
+    var height = -header.clientHeight;
+    header.style.transition = 'transform 0.4s';
+
+    (scrollY <= Math.max(this.lastScroll, 50) || window.innerWidth <= 924 || this.loaded === undefined)
+      ? header.style.transform = 'translateY(0px)'
+      : header.style.transform = 'translateY(' + height + 'px)'
+
+    this.lastScroll = scrollY;
+    this.loaded = true;
+}
+
+//!NAV HIDE-REVEAL//
