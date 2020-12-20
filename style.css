@@ -137,12 +137,16 @@ nav{
 
 /* Landing */
 
+.text-center{
+  text-align: center;
+}
+
 .parallax1{
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
-  background-image: url('old.jpeg');
+  background-image: url('bicenten.jpg');
   max-width: 100%;
   display: block;
   height: 100vh;
@@ -173,7 +177,7 @@ nav{
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
-  background-image: url('old.jpeg');
+  background-image: url('bicenten.jpg'); old.jpeg'
   max-width: 100%;
   display: block;
   height: 50vh;
@@ -233,7 +237,6 @@ nav{
  margin: 0vh 10vw 0vh 10vw;
  min-height: 70vh;
 }
-
 
 .p-landing{
   padding: 4vh;
@@ -303,6 +306,29 @@ nav{
   left: 0%;
   width: 100%;
   height: auto;
+}
+.kj{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.kj p{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 5%;
+  text-align: center;
+}
+
+.kj img{
+  position: relative;
+  justify-content: center;
+ margin: 0 auto;
+  top: 10%;
+  width: 50%;
+  height: auto;
+
 }
 /* ABOUT */
 
@@ -698,6 +724,14 @@ textarea:focus{
    width: 70%;
  }
 
+ .h-full {
+   height: 100%;
+ }
+
+ .h-half {
+   height: 50%;
+ }
+
  .text-center {
    text-align: center;
  }
@@ -1057,7 +1091,7 @@ textarea:focus{
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    background-image: url('old.jpeg');
+    background-image: url('bicenten.jpeg');
     width: 100%;
     display: block;
     height: 100vh;
@@ -1069,7 +1103,7 @@ textarea:focus{
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    background-image: url('old.jpeg');
+    background-image: url('bicenten.jpeg');
     width: 100%;
     display: block;
     height: 50vh;
