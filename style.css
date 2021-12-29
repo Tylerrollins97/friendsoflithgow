@@ -67,7 +67,7 @@ nav {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  width: 33%;
+  width: 40%;
 }
 
 .nav-links li {
@@ -138,7 +138,7 @@ nav {
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
-  background-image: url('bicenten.jpg');
+  background-image: url('old.jpeg');
   max-width: 100%;
   display: block;
   height: 100vh;
@@ -169,7 +169,7 @@ nav {
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
-  background-image: url('bicenten.jpg');
+  background-image: url('old.jpeg');
   max-width: 100%;
   display: block;
   height: 50vh;
@@ -247,10 +247,11 @@ nav {
 .appeal {
   padding-left: 4vh;
   padding-right: 4vh;
-  padding-top: 20px;
+  padding-top: 30px;
   padding-bottom: 10px;
-  font-size: 14px;
+  font-size: 18px;
   line-height: 24px;
+  text-align: center;
 }
 
 .friends {
@@ -430,7 +431,7 @@ hr {
 }
 
 #news-heading {
-  padding: 20px;
+  padding: 30px;
 }
 
 /* CONTACT */
@@ -1114,7 +1115,7 @@ textarea:focus {
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    background-image: url('bicenten.jpeg');
+    background-image: url('old.jpeg');
     width: 100%;
     display: block;
     height: 100vh;
@@ -1126,7 +1127,7 @@ textarea:focus {
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    background-image: url('bicenten.jpeg');
+    background-image: url('old.jpeg');
     width: 100%;
     display: block;
     height: 50vh;

@@ -31,9 +31,7 @@
 
 <body>
   <div class="container">
-
     <!-- NAV -->
-
     <div class="header">
       <nav id='nav' class="sticky">
         <div class="logo">
@@ -43,6 +41,9 @@
         <ul class="nav-links">
           <li>
             <a href="#">Home</a>
+          </li>
+          <li>
+            <a href="#carousel">News</a>
           </li>
           <li>
             <a href="#about">About</a>
@@ -72,7 +73,6 @@
     </div>
 
     <!-- HOME -->
-    <!-- WHAT IS GOING ON-->
     <section>
       <div class="img-container">
         <div class="parallax1">
@@ -80,56 +80,85 @@
             Happy Holidays
           </div> -->
         </div>
-        <div class="title">
+        <!--DOWN ARROW
+          <div class="title">
           <div id="arrow-down">
             <i class="fa fa-chevron-down fa-3x"></i>
           </div>
         </div>
+            -->
       </div>
     </section>
 
     <section>
 
       <!-- Flickity HTML init -->
-      <div class="carousel" data-flickity='{ "wrapAround": true }'>
+      <div class="carousel" id="carousel" data-flickity='{ "wrapAround": true }'>
 
-        <!-- <div class="carousel-cell">   ITEM 4
+        <!-- ITEM 1 -->
+        <div class="carousel-cell">
           <div class="news-landing4">
             <h2 id="news-heading">Your Year-End Giving Makes a Difference</h2>
-            <img src="2019_Appeal.jpg" alt="2019_Appeal" id="appeal">
-            <p class="appeal">Your response to this year’s Annual Appeal has been amazing, and we
-                                                want to thank those of you who have recently contributed. We are
-                                                excited to announce that three of our board members have challenged
-                                                us to raise $10,000 by the end of the year. If we make it, they will
-                                                contribute an additional $5,000 towards the challenge. Please take
-                                                advantage to this gift opportunity before it’s too late and help us build
-                                                our newly established Friends of Lithgow Library Endowment Fund.</p>
+            <img src="LithgowAnnualAppeal2021.JPG" alt="2021_Appeal" id="appeal">
+            <p class="appeal">As the year draws to a close, we want to say thank you for your enthusiasm and generosity. This past year, your support helped us purchase mobile hotspots for home internet use, a new book program for teens as well as an
+              expanded online platform
+              that offers library patrons an enormous selection of digital content and much more. Without you, this would not be possible. Thank you for choosing the Friends of the Lithgow Library as part of your year-end giving.
+            </p>
+
+
+            <!-- APPEAL LETTER 2019
             <div class="news-buttons">
               <div class="box1">
-              <a href="Annual_Appeal_Letter.pdf" target="_blank" style="color: #faf8f5;">
-                <div class="box">
+                <a href="Annual_Appeal_Letter.pdf" target="_blank" style="color: #faf8f5;">
+                  <div class="box">
                     Anuual Appeal Letter
+                  </div>
+                </a>
               </div>
-              </a>
-            </div>
+              APPEAL LETTER 2019 -->
 
           </div>
         </div>
-      </div> ITEM  4   -->
+
+
+        <!-- ITEM 2-->
+        <div class="carousel-cell">
+          <div class="news-landing4">
+            <h2 id="news-heading">2021 Annual Raffle</h2>
+            <img src="RaffleCheck2021.jpg" alt="2021_Raffle" id="appeal">
+            <p class="appeal">THANK YOU to everyone who purchased a raffle ticket for this year’s annual $10,000 raffle! Your generosity benefits the Friends of Lithgow Library and KV YMCA, two organizations that are vital to the heartbeat of our
+              community and provide
+              opportunities to local children and families. (L-R: David Madore, Board Chair, Friends of Lithgow, Ranae L’Italien, CEO, KV YMCA, Sarah Schultz-Nielsen, Director, Lithgow Library)
+            </p>
+          </div>
+        </div>
+
+        <!-- ITEM 3-->
+        <div class="carousel-cell">
+          <div class="news-landing4">
+            <h2 id="news-heading">Bloomin' 4 Good Program </h2>
+            <img src="Hannaford-B4G-NP-Facebook-Post-1-Generic-1.png" alt="B4G_Photo" id="appeal">
+            <p class="appeal">We are delighted to have been chosen as the recipients of Hannaford's Bloomin' 4 Good program for the month of December. Each time a shopper purchases the $12.00 Bloomin' 4 Good Bouquet with the red circle sticker at the
+              Cony Street Hannaford,
+              we will receive a $1 donation. Treat yourself or brighten someone's day and help support the Friends of Lithgow Library!
+            </p>
+          </div>
+        </div>
+
         <div class="carousel-cell">
           <div class="news-landing4">
             <div class="kj">
               <p><em>“It makes me happy [that the library is open] because I am no longer in public school, so the public library is the only place I have to check out books.” </em> - KG
                 <img src="2020_Annual_Appeal_Photo.jpg" alt="Appeal Photo">
-                <br>This sentiment shared by a local teen, echoes the thoughts and concerns expressed by many children and teens in the community trying to keep up with their studies without access to books and wi-fi provided at school.
-                By supporting this year’s annual appeal, you will help us meet the demand for expanded on-line services and additional wi-fi capability.
-                All donations are greatly appreciated and will make a real difference as we move through this difficult period. </p>
+                <br>This sentiment shared by a local teen, echoes the thoughts and concerns expressed by many children and teens in the community trying to keep up with their studies without access to books and wi-fi provided at school. By supporting
+                this
+                year’s annual appeal, you will help us meet the demand for expanded on-line services and additional wi-fi capability. All donations are greatly appreciated and will make a real difference as we move through this difficult period. </p>
             </div>
           </div>
         </div>
         <!--ITEM 4 -->
 
-        <!-- ITEM  5  -->
+        <!-- OLD RAFFLE
         <div class="carousel-cell">
           <div class="news-landing5">
             <div class="kj">
@@ -137,14 +166,14 @@
               <br>
               <br>
               <img src="lithgow-donation.jpg" alt="Donation Photo">
-              <p>The Kennebec Valley YMCA and Friends of the Lithgow Library’s annual $10,000 raffle recently raised a total of $36,200.
-                One ticketholder received $10,000 and the remainder was divided equally between Kennebec Valley YMCA and Friends of the Lithgow Library.
-                A total of 300 tickets were sold, and the grand drawing was held in November.
-                Pictured are Sarah Schultz-Nielsen, library director; Ranae L’Italien, CEO Kennebec Valley YMCA; and David Madore, Board Chair - Friends of Lithgow Library. </p>
+              <p>The Kennebec Valley YMCA and Friends of the Lithgow Library’s annual $10,000 raffle recently raised a total of $36,200. One ticketholder received $10,000 and the remainder was divided equally between Kennebec Valley YMCA and Friends
+                of the
+                Lithgow Library. A total of 300 tickets were sold, and the grand drawing was held in November. Pictured are Sarah Schultz-Nielsen, library director; Ranae L’Italien, CEO Kennebec Valley YMCA; and David Madore, Board Chair - Friends of
+                Lithgow Library. </p>
             </div>
           </div>
         </div>
-        <!--ITEM 45-->
+         -->
 
         <div class="carousel-cell">
           <!--ITEM 2 -->
@@ -152,7 +181,8 @@
             <img src="Stories-from-the-Mezzanine.jpg" alt="Stories from the Mezzanine" id="mezzanine">
             <p class="p-landing">The Friends of Lithgow Library commissioned local artist Christopher Cart to create a new piece of artwork to commemorate the completion of the expansion and restoration of the library in 2016. Visit the artist's
               website at <a href="https://christophercart.com/proj/stories-from-the-mezzanine/" target="_blank" id="link">christophercart.com</a> for more information about this unique panting which now hangs proudly in the new wing of Lithgow
-              Library.</p>
+              Library.
+            </p>
           </div>
         </div>
         <!--ITEM 2 -->
@@ -188,17 +218,9 @@
             </a>
           </div>
         </div>
-        <!--ITEM 3-->
-
-        <div class="carousel-cell">
-          <!--ITEM 1 -->
-          <div class="news-landing">
-            <p class="p-landing text-center">Special thanks to Augusta photographer, Dave Dostie for the use of his image of the Maine State Capitol to help us celebrate Maine’s bicentennial year. To see more of Dave’s work, visit his website at <a
-                href="https://www.dostiephoto.com/" target="_blank" id="link">dostiephoto.com</a></p>
-          </div>
-        </div>
-        <!--ITEM 1 -->
       </div>
+      <!-- Carousel Wrapper-->
+      <!--ITEM 3-->
 
     </section>
 
@@ -332,8 +354,8 @@
       <div class="landing">
         <p class="p-landing">
           Thanks to your generous support, we have built the library of the future. Your gift allows the Friends of Lithgow Library to continue our work by encouraging community support of the library; sponsoring educational and enrichment programs
-          for all ages and
-          raising money for library needs.
+          for all ages
+          and raising money for library needs.
         </p>
 
         <!-- CARD CONTAINER -->
@@ -404,8 +426,10 @@
 
             </div>
 
-          </div> <!-- END DONATION CARD -->
-        </div> <!-- END CARD CONTAINER -->
+          </div>
+          <!-- END DONATION CARD -->
+        </div>
+        <!-- END CARD CONTAINER -->
 
         <p class="p-landing">
           <strong>Please remember the Friends of Lithgow Library
@@ -430,13 +454,11 @@
         </p>
 
         <p class="p-landing">
-          <strong>NOTE: </strong>The Internal Revenue Service recognizes the
-          Friends of Lithgow Library as a tax-exempt, 501(c)(3)
-          non-profit organization. Our tax identification number
-          (TIN/EIN/FEIN) is 41-2038965
+          <strong>NOTE: </strong>The Internal Revenue Service recognizes the Friends of Lithgow Library as a tax-exempt, 501(c)(3) non-profit organization. Our tax identification number (TIN/EIN/FEIN) is 41-2038965
         </p>
 
-      </div> <!-- END LANDING -->
+      </div>
+      <!-- END LANDING -->
 
 
     </section>
